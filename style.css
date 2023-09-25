@@ -1,4 +1,75 @@
-#heading {
-    color: red;
-    text-align: center;
+
+.Header-comp {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Header-comp:hover {
+    border: 1px Solid #252525;
+}
+.Logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-bar > ul {
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+.nav-bar > ul > li {
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.search {
+    margin-top: 15px;
+    float: right;
+}
+
+.food-int {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.food-int:hover {
+    cursor: pointer;
+}
+.cards {
+    width: 200px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+
+}
+.cards:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+.logo-card {
+    height: 150px;
+    width: 100%;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+   
+}
+.filter-btn {
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.price {
+    padding: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+    color: #252525;
+    border-radius: 30px;
+    cursor: pointer;
 }
